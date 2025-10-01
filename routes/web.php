@@ -6,17 +6,30 @@ use App\Http\Controllers\BukuTamuController;
 use App\Http\Controllers\UserController;
 
 // Halaman utama langsung ke dashboard
-Route::get('/', function () {
-// <<<<<<< databases
+// Route::get('/', function () {
+// <<<<<<< konflik
 //     return view('dashboard'); // Breeze otomatis bikin view ini
 // })->middleware(['auth'])->name('dashboard');
 
 // // Resource untuk Buku Tamu dan Users
 // Route::resource('buku-tamu', BukuTamuController::class)->middleware(['auth']);
 // Route::resource('users', UserController::class)->middleware(['auth']);
+
+// // Route::get('/dashboard', function () {
+// //     return view('dashboard');
+// // })->middleware(['auth', 'verified'])->name('dashboard');
 // =======
-//     return view('welcome');
-// });
+// // <<<<<<< databases
+// //     return view('dashboard'); // Breeze otomatis bikin view ini
+// // })->middleware(['auth'])->name('dashboard');
+
+// // // Resource untuk Buku Tamu dan Users
+// // Route::resource('buku-tamu', BukuTamuController::class)->middleware(['auth']);
+// // Route::resource('users', UserController::class)->middleware(['auth']);
+// // =======
+// //     return view('welcome');
+// // });
+// >>>>>>> main
 
 // Route::get('/dashboard', function () {
 //     return view('dashboard');
